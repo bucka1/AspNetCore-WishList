@@ -12,7 +12,5 @@ namespace WishList.Controllers
         {
             return Index();
         }
-
-
     }
 }
