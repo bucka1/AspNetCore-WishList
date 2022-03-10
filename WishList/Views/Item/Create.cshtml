@@ -2,8 +2,9 @@
 @model Item
 
 <h3>Add item to wishlist.</h3>
+
 <form asp-action = "create">
     <input asp-for ="Description" />
     <span asp-validation-for="Description"></span>
-    <btn btn-primary="Submit">Add Item</btn>
+    <button type="submit">Add Item</button>
 </form>
